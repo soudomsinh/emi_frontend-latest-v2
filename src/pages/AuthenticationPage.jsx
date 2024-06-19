@@ -46,8 +46,9 @@ const AuthenticationPage = ({onLogin}) => {
                 >
                   <p className="text-center">Sign in</p>
                 </Link>
-                <button>Sign in with Google</button>
-                <button>Sign in with Microsoft</button>
+                <button
+                  className="  bg-sky-700 text-white text-lg font-bold py-3 rounded-md active:scale-[.98] active:duration-75 transition-all" 
+                >Sign in with Microsoft</button>
                 <div className="flex justify-between items-center">
                   <p>Don't have an account? </p>
                     <Link 

@@ -42,7 +42,8 @@ const LoginPage = () => {
             >
               Sign in
             </button>
-            {/* <button>Sign in with Google</button> */}
+            <button
+            >Sign in with Google</button>
             <button>Sign in with Microsoft</button>
             <div className="flex justify-between items-center">
               <p>Don't have an account? </p>
